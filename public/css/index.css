@@ -1,0 +1,22 @@
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    color: black;
+}
+.borderRadius{
+    border-radius: 0;
+
+}
+.ic{
+    font-size:2em;
+
+}
+@media (max-width: 768px) {
+
+    .ic{
+        font-size: 1.5em;
+
+    }
+}
