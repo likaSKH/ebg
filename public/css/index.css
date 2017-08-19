@@ -13,10 +13,12 @@
     font-size:2em;
 
 }
-@media (max-width: 768px) {
+.image-container{
+    max-height: 320px;
+    align-content: center;
 
-    .ic{
-        font-size: 1.5em;
+}
 
-    }
+.button-background{
+    background-img:url("../images/button.png");
 }

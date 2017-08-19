@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>Ebay Blogs</title>
 
     <link href="<?php echo base_url('public/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
     <link href="<?php echo base_url('public/css/index.css');?>" rel="stylesheet">
@@ -71,13 +71,65 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 </div>
-<div class="container pt-5">
+<div class="container pt-4 ">
     <div class="row">
         <h2 class="border border-left-0 border-right-0 border-top-0 border-success p-2 text-muted">ბლოგი</h2>
     </div>
-    <div class="row pt-2" >
-        <div class="col-md-6 bg-danger"></div>
-        <div class="col-md-6 bg-success"></div>
+
+    <div class="row">
+        <div class="col-md-5 col-sm-12 col- bg-danger p-0 pb-4 mt-4 bg-white">
+            <div class="image-container ">
+                <img src="<?php echo base_url('public/images/cubes.png');?>" class="img-fluid " alt="image">
+            </div>
+            <h5 class="p-2 text-muted ">
+                ლეგოების უჯრები გამოიყენეთ მშვიდად
+            </h5>
+            <p class="p-2 text-muted">ეს არის ყველაზე კრეატიული ნივთი დედამიწის ზურგზე რაც კი არსებობს, და წარმატებებს გისურვებთ ამ კრეატიული ნივთის გამოყენებაში.</p>
+
+
+            <a href="" class=" col-md-3 pull-right" ><img src="<?php echo base_url('public/images/button.png');?>" class="img-fluid" width="100px" alt="" ></a>
+
+
+        </div>
+        <div class="col-md-2 col-sm-12 col- mt-4" ></div>
+        <div class="col-md-5 col-sm-12 col- bg-primary p-0 mt-4 bg-white">
+            <div class="image-container ">
+                <img src="<?php echo base_url('public/images/kitchen.jpg');?>" class="img-fluid " alt="image">
+            </div>
+            <h5 class="p-2 text-muted">
+                ლეგოების უჯრები გამოიყენეთ მშვიდად
+            </h5>
+            <p class="p-2 text-muted">ეს არის ყველაზე კრეატიული ნივთი დედამიწის ზურგზე რაც კი არსებობს, და წარმატებებს გისურვებთ ამ კრეატიული ნივთის გამოყენებაში.</p>
+            <a href="" class=" col-md-3 pull-right" ><img src="<?php echo base_url('public/images/button.png');?>" class="img-fluid" width="100px" alt="" ></a>
+
+        </div>
+
+
+        <!--tneeext-->
+        <div class="col-md-5 bg-danger p-0 mt-4 bg-white">
+            <div class="image-container ">
+                <img src="<?php echo base_url('public/images/makeup.png');?>" class="img-fluid " alt="image">
+            </div>
+            <h5 class="p-2 text-muted">
+                ლეგოების უჯრები გამოიყენეთ მშვიდად
+            </h5>
+            <p class="p-2 text-muted">ეს არის ყველაზე კრეატიული ნივთი დედამიწის ზურგზე რაც კი არსებობს, და წარმატებებს გისურვებთ ამ კრეატიული ნივთის გამოყენებაში.</p>
+            <a href="" class=" col-md-3 pull-right" ><img src="<?php echo base_url('public/images/button.png');?>" class="img-fluid" width="100px" alt="" ></a>
+
+        </div>
+        <div class="col-md-2 mt-4"></div>
+        <div class="col-md-5 bg-primary p-0 mt-4 bg-white">
+            <div class="image-container ">
+                <img src="<?php echo base_url('public/images/pick.jpg');?>" class="img-fluid " alt="image">
+            </div>
+            <h5 class="p-2 text-muted">
+                ლეგოების უჯრები გამოიყენეთ მშვიდად
+            </h5>
+            <p class="p-2 text-muted">ეს არის ყველაზე კრეატიული ნივთი დედამიწის ზურგზე რაც კი არსებობს, და წარმატებებს გისურვებთ ამ კრეატიული ნივთის გამოყენებაში.</p>
+            <a href="" class=" col-md-3 pull-right" ><img src="<?php echo base_url('public/images/button.png');?>" class="img-fluid" width="100px" alt="" ></a>
+
+        </div>
+
     </div>
 
 
