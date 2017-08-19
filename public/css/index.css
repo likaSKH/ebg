@@ -1,0 +1,24 @@
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    color: black;
+}
+.borderRadius{
+    border-radius: 0;
+
+}
+.ic{
+    font-size:2em;
+
+}
+.image-container{
+    max-height: 320px;
+    align-content: center;
+
+}
+
+.button-background{
+    background-img:url("../images/button.png");
+}
