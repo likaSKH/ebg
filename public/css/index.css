@@ -3,7 +3,8 @@
     color: black;
 }
 .links:hover{
-    color: black;
+    color: green;
+    text-decoration: none;
 }
 .borderRadius{
     border-radius: 0;
