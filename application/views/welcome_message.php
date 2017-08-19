@@ -1,20 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Ebay Blogs</title>
 
-    <link href="<?php echo base_url('public/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
-    <link href="<?php echo base_url('public/css/index.css');?>" rel="stylesheet">
-    <link href="<?php echo base_url('public/font-awesome/css/font-awesome.min.css');?>" rel="stylesheet">
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src=" <?php echo base_url('/public/bootstrap/js/bootstrap.js')?>"> </script>
-</head>
-<body class="bg-light">
 <div class="col-*-12 bg-white border border-light border-top-0">
     <div class="container ">
 
@@ -134,6 +118,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 </div>
-
-</body>
-</html>
