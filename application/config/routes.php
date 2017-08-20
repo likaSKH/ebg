@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+$route['admin']='admin/create';
 $route['catalogs/(:any)']='pages/view/$1';
 $route['default_controller'] = 'pages/index';
 $route['catalogs']='pages/index';
