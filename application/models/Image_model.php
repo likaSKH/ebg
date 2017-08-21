@@ -14,4 +14,14 @@ class Image_model extends CI_Model{
         $query = json_decode(json_encode($object), True);
         return $query;
     }
+
+    public function image_upload($url, $catalog_id){
+        $data=array(
+            'catalog_id'=>$catalog_id,
+            'url'=>$url,
+        );
+
+        return $this->db->insert('images', $data);
+
+    }
 }

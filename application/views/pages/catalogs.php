@@ -10,7 +10,7 @@
         <div class="col-md-6 col-sm-12  p-4 pb-3  ">
             <div class="bg-white " style="height: 100%;">
             <div class="image-container col-md-12 p-0">
-                <img src="<?php echo base_url().'/public/images/'.$catalogs[$i]['image'][0]['url'] ?>" class="img-fluid " alt="image">
+                <img src="<?php echo base_url().'public/images/'.$catalogs[$i]['image'][0]['url'] ?>" class="img-fluid " alt="image">
             </div>
             <div class="col-md-12 pt-5 pl-0 pr-0">
             <h5 class="p-2 text-muted ">

@@ -29,14 +29,14 @@ class Pages extends CI_Controller{
         if (empty($data['catalog'])){
             show_404();
         }
-
-        $data['images']=$this->image_model->get_images($data['catalog']['id']);
+        $data['images']=$this->image_model->get_images(json_decode($data['catalog'])->id);
 
         if (empty($data['images'])){
             $data['images'][0]['url']='noimage.png';
         }
 
-        $data['title']=$data['catalog']['title'];
+        $data['title']=json_decode($data['catalog'])->title;
+        $data['text']=json_decode($data['catalog'])->text;
         $this->load->view('layouts/header', $data);
         $this->load->view('pages/catalog_detail', $data);
         $this->load->view('layouts/footer');
