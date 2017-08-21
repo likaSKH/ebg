@@ -78,6 +78,17 @@ class Catalog_model extends CI_Model{
         $this->db->where('id',$id);
         $this->db->update('catalogs', $data);
 
+        $images= $this->db->get('images')->num_rows();
+        if (isset($_POST['images']) && is_array($_POST['images'])){
+
+            foreach ($_POST['images'] as $key => $value){
+              $this->db->where('id',$key);
+              $this->db->delete('images');
+            }
+        }
+        return $images;
+
+
 
 
     }

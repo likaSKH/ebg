@@ -112,7 +112,7 @@ class Admin extends CI_Controller{
     public function edit_save_catalog(){
         $id=$_POST['catalog_id'];
          $this->catalog_model->edit_save_catalog_m($id);
-
+        $this->session->set_flashdata('success', 'ოპერაცია შესრულდა წარმატებით');
          redirect('admin/catalog');
     }
 

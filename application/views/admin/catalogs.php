@@ -151,7 +151,7 @@
                     <?php echo form_open_multipart('admin/upload'); ?>
                     <div class="form-group">
                         <input type="text" class="form-control" name="catalog_id" id="image_catalog_id" value="" hidden>
-                        <input type="file" name="userfile" value="" class="form-control" >
+                        <input type="file"  name="userfile" value="" class="form-control" multiple>
                     </div>
 
 
@@ -189,13 +189,14 @@
                     </div>
                     <div class="form-group">
                         <label for="text">ტექსტი</label>
-                        <textarea type="text" class="form-control edit_text" name="text" id="edit_text" >ტექსტი</textarea>
+                        <textarea type="text" class="form-control edit_text" name="text" id="edit_text" rows="10" >ტექსტი</textarea>
                     </div>
-
-                    <div class="form-group checks">
+                    <div class="form-group">
+                        <label for="text">აირჩიეთ სურათი რომლის წაშლაც გსურთ</label>
+                    <div class="form-group checks form-control">
 
                     </div>
-
+                    </div>
 
 
 
@@ -253,7 +254,7 @@
                     $('.edit_text').val(html.text);
 console.log(html.images.length);
                     for(var i=0; i<html.images.length; i++){
-                        var input= "<input type='checkbox' name='gender' value='"+html.images[i].id+"' class='image_check '><img src='"+'<?php echo base_url().'public/images/' ?>'+html.images[i].url+"' width='50px'>";
+                        var input= "<input type='checkbox'  name='images["+html.images[i].id+"]' class='image_check '><img src='"+'<?php echo base_url().'public/images/' ?>'+html.images[i].url+"' width='50px'>";
                         $('.checks').append(input);
                     }
 
